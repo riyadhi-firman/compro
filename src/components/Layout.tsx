@@ -27,7 +27,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
-                <LogoMMD size="sm" className="text-blue-600 dark:text-blue-400" />
+                <LogoMMD size="sm" />
+                <div>
+                  <span className="text-xl font-bold text-blue-600 dark:text-blue-400">PT. Mitra Media Data</span>
+                  <div className="text-xs text-gray-500 dark:text-gray-400">Partner Internet Terpercaya Anda</div>
+                </div>
               </Link>
             </div>
 
@@ -115,7 +119,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             {/* Company Info */}
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <LogoMMD size="sm" className="text-white" />
+                <LogoMMD size="sm" />
+                <div>
+                  <span className="text-xl font-bold">PT. Mitra Media Data</span>
+                  <div className="text-sm text-gray-400 dark:text-gray-500">Partner Internet Terpercaya Anda</div>
+                </div>
               </div>
               <p className="text-gray-400 dark:text-gray-500 mb-4">
                 Penyedia Layanan Internet terkemuka yang menghadirkan solusi konektivitas
