@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, Mail, MapPin } from 'lucide-react';
-import Logo from './Logo';
+import LogoMMD from './LogoMMD';
 import DarkModeToggle from './DarkModeToggle';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -27,11 +27,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
-                <Logo size="sm" className="text-blue-600 dark:text-blue-400" />
-                <div>
-                  <span className="text-xl font-bold text-blue-600 dark:text-blue-400">PT. Mitra Media Data</span>
-                  <div className="text-xs text-gray-500 dark:text-gray-400">Your Trusted Internet Partner</div>
-                </div>
+                <LogoMMD size="sm" className="text-blue-600 dark:text-blue-400" />
               </Link>
             </div>
 
@@ -119,15 +115,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             {/* Company Info */}
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <Logo size="sm" className="text-white" />
-                <div>
-                  <span className="text-xl font-bold">PT. Mitra Media Data</span>
-                  <div className="text-sm text-gray-400 dark:text-gray-500">Your Trusted Internet Partner</div>
-                </div>
+                <LogoMMD size="sm" className="text-white" />
               </div>
               <p className="text-gray-400 dark:text-gray-500 mb-4">
-                Leading Internet Service Provider delivering reliable, high-speed connectivity
-                solutions for residential and business customers across Indonesia.
+                Penyedia Layanan Internet terkemuka yang menghadirkan solusi konektivitas
+                berkecepatan tinggi dan terpercaya untuk pelanggan residensial dan bisnis di seluruh Indonesia.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 dark:text-gray-500 hover:text-blue-400 dark:hover:text-blue-300 transition-colors">
@@ -147,7 +139,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
             {/* Quick Links */}
             <div>
-              <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+              <h3 className="text-lg font-semibold mb-4">Tautan Cepat</h3>
               <ul className="space-y-2">
                 {navigation.map((item) => (
                   <li key={item.name}>
@@ -164,7 +156,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
             {/* Contact */}
             <div>
-              <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
+              <h3 className="text-lg font-semibold mb-4">Informasi Kontak</h3>
               <div className="space-y-2">
                 <div className="flex items-center space-x-2 text-gray-400 dark:text-gray-500">
                   <MapPin className="h-4 w-4" />
@@ -185,17 +177,17 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           <div className="border-t border-gray-800 dark:border-gray-700 mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 dark:text-gray-500 text-sm">
-                © 2024 PT. Mitra Media Data. All rights reserved.
+                © 2024 PT. Mitra Media Data. Semua hak dilindungi.
               </p>
               <div className="flex space-x-6 mt-2 md:mt-0">
                 <a href="#" className="text-gray-400 dark:text-gray-500 hover:text-blue-400 dark:hover:text-blue-300 text-sm transition-colors">
-                  Privacy Policy
+                  Kebijakan Privasi
                 </a>
                 <a href="#" className="text-gray-400 dark:text-gray-500 hover:text-blue-400 dark:hover:text-blue-300 text-sm transition-colors">
-                  Terms of Service
+                  Syarat Layanan
                 </a>
                 <a href="#" className="text-gray-400 dark:text-gray-500 hover:text-blue-400 dark:hover:text-blue-300 text-sm transition-colors">
-                  Support
+                  Dukungan
                 </a>
               </div>
             </div>

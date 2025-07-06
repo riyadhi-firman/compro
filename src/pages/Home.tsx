@@ -57,24 +57,24 @@ const Home: React.FC = () => {
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6">
                 Connect to the Future with
-                <span className="text-blue-300 dark:text-blue-200 block">High-Speed Internet</span>
+                <span className="text-blue-300 dark:text-blue-200 block">Internet Berkecepatan Tinggi</span>
               </h1>
               <p className="text-xl mb-8 text-blue-100 dark:text-blue-200">
-                Experience reliable, ultra-fast internet connectivity that powers your digital life.
-                From streaming to business operations, we've got you covered.
+                Rasakan konektivitas internet yang andal dan super cepat yang mendukung kehidupan digital Anda.
+                Dari streaming hingga operasi bisnis, kami siap melayani Anda.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/services"
                   className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 dark:hover:bg-gray-100 transition-colors duration-200 text-center"
                 >
-                  View Plans
+                  Lihat Paket
                 </Link>
                 <Link
                   to="/contact"
                   className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 dark:hover:text-blue-700 transition-colors duration-200 text-center"
                 >
-                  Get Quote
+                  Minta Penawaran
                 </Link>
               </div>
             </div>
@@ -85,20 +85,20 @@ const Home: React.FC = () => {
                     <Wifi className="h-12 w-12 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold mb-2">99.9% Uptime</h3>
-                  <p className="text-blue-100 dark:text-blue-200">Guaranteed reliable connection</p>
+                  <p className="text-blue-100 dark:text-blue-200">Koneksi andal terjamin</p>
                 </div>
                 <div className="grid grid-cols-3 gap-4 text-center">
                   <div>
                     <div className="text-2xl font-bold">50K+</div>
-                    <div className="text-sm text-blue-100 dark:text-blue-200">Happy Customers</div>
+                    <div className="text-sm text-blue-100 dark:text-blue-200">Pelanggan Puas</div>
                   </div>
                   <div>
                     <div className="text-2xl font-bold">24/7</div>
-                    <div className="text-sm text-blue-100 dark:text-blue-200">Support</div>
+                    <div className="text-sm text-blue-100 dark:text-blue-200">Dukungan</div>
                   </div>
                   <div>
                     <div className="text-2xl font-bold">15+</div>
-                    <div className="text-sm text-blue-100 dark:text-blue-200">Years Experience</div>
+                    <div className="text-sm text-blue-100 dark:text-blue-200">Tahun Pengalaman</div>
                   </div>
                 </div>
               </div>
@@ -112,11 +112,11 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Why Choose PT. Mitra Media Data?
+              Mengapa Memilih PT. Mitra Media Data?
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              We deliver more than just internet - we provide a complete connectivity solution
-              that empowers your digital lifestyle.
+              Kami menghadirkan lebih dari sekadar internet - kami menyediakan solusi konektivitas lengkap
+              yang mendukung gaya hidup digital Anda.
             </p>
           </div>
 
@@ -127,7 +127,7 @@ const Home: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">High-Speed Internet</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Ultra-fast fiber optic connections up to 1 Gbps for seamless browsing and streaming.
+                Koneksi fiber optik super cepat hingga 1 Gbps untuk browsing dan streaming yang lancar.
               </p>
             </div>
 
@@ -137,7 +137,7 @@ const Home: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Reliable & Secure</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                99.9% uptime guarantee with advanced security features to protect your data.
+                Jaminan uptime 99.9% dengan fitur keamanan canggih untuk melindungi data Anda.
               </p>
             </div>
 
@@ -147,7 +147,7 @@ const Home: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">24/7 Support</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Round-the-clock customer support and technical assistance whenever you need it.
+                Dukungan pelanggan dan bantuan teknis 24 jam kapan pun Anda membutuhkannya.
               </p>
             </div>
 
@@ -157,7 +157,7 @@ const Home: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Trusted by Thousands</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Over 50,000 satisfied customers trust us for their internet connectivity needs.
+                Lebih dari 50.000 pelanggan puas mempercayai kami untuk kebutuhan konektivitas internet mereka.
               </p>
             </div>
           </div>
@@ -169,11 +169,11 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Choose Your Perfect Plan
+              Pilih Paket yang Tepat untuk Anda
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              From basic home internet to enterprise solutions, we have packages
-              designed to meet your specific needs.
+              Dari internet rumah dasar hingga solusi enterprise, kami memiliki paket
+              yang dirancang untuk memenuhi kebutuhan spesifik Anda.
             </p>
           </div>
 
@@ -188,7 +188,7 @@ const Home: React.FC = () => {
                 {pkg.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                     <span className="bg-blue-500 dark:bg-blue-400 text-white px-4 py-1 rounded-full text-sm font-medium">
-                      Most Popular
+                      Paling Populer
                     </span>
                   </div>
                 )}
@@ -217,7 +217,7 @@ const Home: React.FC = () => {
                       : 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-600'
                   }`}
                 >
-                  Choose Plan
+                  Pilih Paket
                 </Link>
               </div>
             ))}
@@ -230,11 +230,11 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Extensive Network Coverage
+              Jangkauan Jaringan yang Luas
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Our fiber optic network spans across major cities in Indonesia,
-              providing reliable connectivity where you need it most.
+              Jaringan fiber optik kami tersebar di kota-kota besar di Indonesia,
+              menyediakan konektivitas andal di mana Anda membutuhkannya.
             </p>
           </div>
 
@@ -247,14 +247,14 @@ const Home: React.FC = () => {
                   </div>
                   <p className="text-gray-600 dark:text-gray-300">Interactive Coverage Map</p>
                   <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                    Real coverage map would be integrated here
+                    Peta jangkauan real akan diintegrasikan di sini
                   </p>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Areas We Serve</h3>
+              <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">Area yang Kami Layani</h3>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="flex items-center">
                   <Check className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
@@ -282,14 +282,14 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Our network continues to expand with new coverage areas added regularly.
-                Check if your area is covered or will be included in our expansion plans.
+                Jaringan kami terus berkembang dengan area jangkauan baru yang ditambahkan secara berkala.
+                Periksa apakah area Anda sudah terjangkau atau akan dimasukkan dalam rencana ekspansi kami.
               </p>
               <Link
                 to="/coverage"
                 className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold transition-colors duration-200"
               >
-                Check Coverage Area
+                Periksa Area Jangkauan
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>
@@ -302,11 +302,11 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              What Our Customers Say
+              Apa Kata Pelanggan Kami
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Don't just take our word for it - hear from our satisfied customers
-              who trust us for their internet needs.
+              Jangan hanya percaya kata kami - dengarkan dari pelanggan puas kami
+              yang mempercayai kami untuk kebutuhan internet mereka.
             </p>
           </div>
 
@@ -333,24 +333,24 @@ const Home: React.FC = () => {
       <section className="py-20 bg-blue-600 dark:bg-blue-700 text-white transition-colors duration-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-            Ready to Experience Fast, Reliable Internet?
+            Siap Merasakan Internet Cepat dan Andal?
           </h2>
           <p className="text-xl mb-8 text-blue-100 dark:text-blue-200 max-w-3xl mx-auto">
-            Join thousands of satisfied customers who trust PT. Mitra Media Data
-            for their internet connectivity needs.
+            Bergabunglah dengan ribuan pelanggan puas yang mempercayai PT. Mitra Media Data
+            untuk kebutuhan konektivitas internet mereka.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 dark:hover:bg-gray-100 transition-colors duration-200"
             >
-              Get Started Today
+              Mulai Hari Ini
             </Link>
             <Link
               to="/services"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 dark:hover:text-blue-700 transition-colors duration-200"
             >
-              View All Plans
+              Lihat Semua Paket
             </Link>
           </div>
         </div>
