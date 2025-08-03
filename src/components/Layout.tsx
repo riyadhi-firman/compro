@@ -30,7 +30,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <img 
                   src="/logo-mmd.png" 
                   alt="MMD Logo" 
-                  className="w-12 h-12 object-contain"
+                  className="w-20 h-20 object-contain"
                 />
               </Link>
             </div>
