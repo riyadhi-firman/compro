@@ -32,10 +32,6 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                   alt="MMD Logo" 
                   className="w-8 h-8 object-contain"
                 />
-                <div>
-                  <span className="text-xl font-bold text-blue-600 dark:text-blue-400">PT. Mitra Media Data</span>
-                  <div className="text-xs text-gray-500 dark:text-gray-400">Partner Internet Terpercaya Anda</div>
-                </div>
               </Link>
             </div>
 
